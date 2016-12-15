@@ -1,9 +1,9 @@
-// uzt
+// uzm
 #include <stdio.h>
 int main() {
     int i;
     char e;
-    float b[40];
+    float b[35];
     b[355] = 6;
     for (i = 0; i < 10; i++)
         printf("*\n");
