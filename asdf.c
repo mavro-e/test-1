@@ -4,7 +4,7 @@ int main() {
     int i;
     char e;
     float b[40];
-    b[100] = 6;
+    b[355] = 6;
     for (i = 0; i < 10; i++)
         printf("*\n");
     printf("The New Branch\n");
