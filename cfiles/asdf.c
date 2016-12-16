@@ -1,7 +1,5 @@
 // your text
-// your text
-// your text
-// uzm
+
 #include <stdio.h>
 int main() {
     int i;
