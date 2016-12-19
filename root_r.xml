@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <root>
   <foo a="b">lorem</foo>
+  <your/>
   <lor/>
   <bar value="ipsum"/>
   <los/>
