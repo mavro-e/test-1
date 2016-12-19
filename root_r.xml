@@ -2,6 +2,7 @@
 <root>
   <foo a="b">lorem</foo>
   <your/>
+  <your/>
   <lor/>
   <bar value="ipsum"/>
   <los/>

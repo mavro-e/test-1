@@ -2,6 +2,7 @@
 <project name="Aalto XML processor" basedir="." default="readme">
   <!-- Source directories -->
   <your/>
+  <your/>
   <property name="dir.src" location="${basedir}/src"/>
   <property name="dir.src.java" location="${dir.src}/main/java"/>
   <property name="dir.src.test" location="${dir.src}/test/java"/>
