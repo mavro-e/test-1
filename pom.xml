@@ -3,6 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <your/>
   <your/>
+  <your/>
   <parent>
     <groupId>com.fasterxml</groupId>
     <artifactId>oss-parent</artifactId>
