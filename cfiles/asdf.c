@@ -4,6 +4,8 @@
 #include <stdio.h>
 int main() {
     int i;
+    // fere
+    // dere
     char e;
     float b[35];
     b[34] = 6;
