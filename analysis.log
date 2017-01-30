@@ -1,0 +1,57 @@
+----Mon Jan 30 09:49:25 CET 2017----
+---cppcheck---
+Checking cfiles/asdf.c...
+[cfiles/asdf.c:14]: (style) Variable 'b' is assigned a value that is never used.
+Checking usage of global functions..
+(information) Cppcheck cannot find all the include files (use --check-config for details)
+
+Checking cfiles/ngx_array.c...
+[cfiles/ngx_array.c:55]: (style) The scope of the variable 'size' can be reduced.
+Checking usage of global functions..
+[cfiles/ngx_array.c:24]: (style) The function 'ngx_array_create' is never used.
+[cfiles/ngx_array.c:39]: (style) The function 'ngx_array_destroy' is never used.
+[cfiles/ngx_array.c:53]: (style) The function 'ngx_array_push' is never used.
+[cfiles/ngx_array.c:95]: (style) The function 'ngx_array_push_n' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
+
+Checking cfiles/ngx_cpuinfo.c...
+Checking usage of global functions..
+[cfiles/ngx_cpuinfo.c:135]: (style) The function 'ngx_cpuinfo' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
+
+Checking cfiles/ngx_list.c...
+Checking usage of global functions..
+[cfiles/ngx_list.c:24]: (style) The function 'ngx_list_create' is never used.
+[cfiles/ngx_list.c:88]: (style) The function 'ngx_list_delete' is never used.
+[cfiles/ngx_list.c:39]: (style) The function 'ngx_list_push' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
+
+Checking cfiles/ngx_shmtx.c...
+Checking cfiles/ngx_shmtx.c: NGX_HAVE_ATOMIC_OPS...
+Checking cfiles/ngx_shmtx.c: NGX_HAVE_ATOMIC_OPS;NGX_HAVE_POSIX_SEM...
+Checking cfiles/ngx_shmtx.c: __osf__...
+Checking usage of global functions..
+[cfiles/ngx_shmtx.c:180]: (style) The function 'ngx_shmtx_create' is never used.
+[cfiles/ngx_shmtx.c:263]: (style) The function 'ngx_shmtx_force_unlock' is never used.
+[cfiles/ngx_shmtx.c:239]: (style) The function 'ngx_shmtx_lock' is never used.
+[cfiles/ngx_shmtx.c:213]: (style) The function 'ngx_shmtx_trylock' is never used.
+[cfiles/ngx_shmtx.c:251]: (style) The function 'ngx_shmtx_unlock' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
+
+---cppncss---
+cppncss analysis of cfiles/asdf.c
+File NCSS: 12.00
+File CCN: 2.00
+File Functions: 1.00
+
+cppncss analysis of cfiles/ngx_array.c
+
+cppncss analysis of cfiles/ngx_cpuinfo.c
+
+cppncss analysis of cfiles/ngx_list.c
+File NCSS: 58.00
+File CCN: 17.00
+File Functions: 4.00
+
+cppncss analysis of cfiles/ngx_shmtx.c
+
