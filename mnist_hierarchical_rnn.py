@@ -3,6 +3,7 @@
 # tut
 # tut
 # tut
+# tut
 """This is an example of using Hierarchical RNN (HRNN) to classify MNIST digits.
 
 HRNNs can learn across multiple levels of temporal hiearchy over a complex sequence.

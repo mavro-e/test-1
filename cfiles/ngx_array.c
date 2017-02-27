@@ -1,19 +1,3 @@
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-// your text
-
 /*
  * Copyright (C) Igor Sysoev
  * Copyright (C) Nginx, Inc.
